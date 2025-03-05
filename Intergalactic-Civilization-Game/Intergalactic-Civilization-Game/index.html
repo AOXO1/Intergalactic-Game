@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intergalactic Civilization Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main-menu">
+        <nav class="top-nav">
+            <button class="nav-btn" id="play-btn">Play</button>
+            <button class="nav-btn">Customize</button>
+            <button class="nav-btn">Community</button>
+            <button class="nav-btn">Shop</button>
+        </nav>
+        <div class="content-section">
+            <div class="game-modes">
+                <button class="mode-btn" id="campaign-btn">Campaign</button>
+                <button class="mode-btn">Multiplayer</button>
+                <button class="mode-btn">Academy</button>
+                <button class="mode-btn">Custom Game</button>
+            </div>
+            <div id="news-section" class="card">
+                <h2>Latest News</h2>
+                <p>Unravel the mysteries of the Intergalactic Realm</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="character-selection" class="hidden">
+        <h1>Select Your Character</h1>
+        <div class="character-options">
+            <button id="engineer-btn">Engineer</button>
+            <button id="scientist-btn">Scientist</button>
+            <button id="explorer-btn">Explorer</button>
+        </div>
+    </div>
+
+    <script src="scripts/game.js" defer></script>
+</body>
+</html>
